@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 export default function About() {
   return (
     <div className="lg:px-32 text-cneter  bg-[#f4f1e7] p-4">
@@ -12,7 +13,7 @@ export default function About() {
         professionals in various fields, from healthcare to sports, can perform
         their duties with confidence and comfort. With a focus on innovation and
         customer satisfaction, we strive to create uniforms that not only meet
-        but exceed our clients' expectations. Our team of experts works
+        but exceed our clients&apos; expectations. Our team of experts works
         tirelessly to design and manufacture uniforms that promote unity,
         professionalism, and trust. From hospital wear to sports uniforms, we
         offer a wide range of options tailored to suit every need. Partner with
