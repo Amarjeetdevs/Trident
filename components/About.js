@@ -7,7 +7,7 @@ export default function About() {
       <div className="flex justify-center">
         <p className="text-4xl pb-14 font-bold font-mono">About Us</p>
       </div>
-      <p className="text-lg sm:text-xl font-serif px-8 pb-14">
+      <h2 className="text-lg sm:text-xl font-serif px-8 pb-14">
         At Trident, we are dedicated to providing high-quality uniforms that
         blend functionality with style. Our mission is to ensure that
         professionals in various fields, from healthcare to sports, can perform
@@ -18,7 +18,7 @@ export default function About() {
         professionalism, and trust. From hospital wear to sports uniforms, we
         offer a wide range of options tailored to suit every need. Partner with
         us and experience the difference in quality and service.
-      </p>
+      </h2>
       <div className="flex justify-center font-sans">
         <Link
           href="/about"
