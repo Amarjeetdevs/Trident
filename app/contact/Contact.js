@@ -134,7 +134,7 @@ const Contact = () => {
                 <p className="mt-2 text-sm text-gray-500">
                   Come say hello at our office HQ.
                 </p>
-                <p className="mt-2 text-sm text-gray-500">New Delhi, India</p>
+                <p className="mt-2 text-sm text-gray-500">Sharjah United Arab Emirates</p>
               </div>
 
               <div className="lg:ml-4">

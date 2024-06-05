@@ -3,23 +3,24 @@ import { Context } from "@/Context/Context";
 import Link from "next/link";
 import Image from "next/image";
 import { useContext } from "react";
-import trident from "../assets/tirdent.png"
+import trident from "../assets/tirdent.png";
 const Mobile = ({ setIsOpen, categories }) => {
   const { user, handleLogout } = useContext(Context);
   const name = user?.data?.name.replace(/ .*/, "");
+  const ServiceCategory = [
+    "Hospital Uniform",
+    "School Uniform",
+    "Corporate Uniform",
+    "Sports Uniform",
+    "Security-uniform",
+  ];
+
   return (
     <div>
       <div className="flex h-screen flex-col justify-between border-e bg-white">
         <div className="px-4 py-6">
           <Link onClick={() => setIsOpen(false)} href="/">
-        
-       <Image
-       width={50}
-       height={50}
-       src={trident}
-  alt="not found"
-       />
-            
+            {/* <Image width={50} height={50} src={trident} alt="not found" /> */}
           </Link>
 
           <ul className="mt-6 space-y-1">
@@ -43,7 +44,7 @@ const Mobile = ({ setIsOpen, categories }) => {
                 </Link>
               </li>
             )}
-            <li>
+            {/* <li>
               <details className="group [&_summary::-webkit-details-marker]:hidden">
                 <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700">
                   <span className="text-sm font-medium"> Categories </span>
@@ -79,8 +80,45 @@ const Mobile = ({ setIsOpen, categories }) => {
                   })}
                 </ul>
               </details>
-            </li>
+            </li> */}
+                {/*service*/}
+                <li>
+              <details className="group [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+                  <span className="text-sm font-medium"> Service </span>
 
+                  <span className="shrink-0 transition duration-300 group-open:-rotate-180">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </summary>
+
+                <ul className="mt-2 space-y-1 px-4">
+                  {ServiceCategory?.map((category) => {
+                    return (
+                      <li key={category}>
+                        <Link
+                          href={`/service/${category}`}
+                          className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        >
+                          {category}
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </details>
+            </li>
             <li>
               <Link
                 href="/about"
@@ -91,7 +129,7 @@ const Mobile = ({ setIsOpen, categories }) => {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link
                 href="/products"
                 onClick={() => setIsOpen(false)}
@@ -99,7 +137,7 @@ const Mobile = ({ setIsOpen, categories }) => {
               >
                 Products
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/production"
@@ -107,6 +145,15 @@ const Mobile = ({ setIsOpen, categories }) => {
                 className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
               >
                 Production
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/contact"
+                onClick={() => setIsOpen(false)}
+                className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+              >
+                Contact us
               </Link>
             </li>
             {/* <li>
