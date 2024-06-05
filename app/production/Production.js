@@ -20,42 +20,42 @@ export default function Production() {
     { figureLink: pttern,
       figureTitle:'Pattern making',
       textDescription:
-      'Our cutting department cuts the fabric according to the quantity and size. Our cutting helpers do the numbering on the cut panels to avoid the shading and mixing of the sizes' 
+      "This section highlights the importance of accurate pattern creation in ensuring consistent sizing and fit throughout production. " 
     },
     { figureLink: fabric,
       figureTitle:'Fabrics',
       textDescription: 
-      'We follow chain system in our stitching lines. Our production supervisors take targets according to set layouts and our quality controllers ensure the quality standard during the stitching process.' 
+      'This section could delve into the types of fabrics used at Trident, considering factors like durability, breathability, and aesthetics. It might also explore the "chain system" mentioned for stitching lines, explaining how it optimizes fabric usage and reduces waste.' 
     },
     { figureLink: marking,
       figureTitle:'Marking',
       textDescription: 
-      'We follow chain system in our stitching lines. Our production supervisors take targets according to set layouts and our quality controllers ensure the quality standard during the stitching process.'  
+      "At Trident, marking is pivotal. We plan patterns with precision, using a chain system for efficiency. Numbering panels prevents errors. Advanced tech like laser cutters ensures top-notch cuts."  
     },
     { figureLink: cutting,
       figureTitle:'Cutting',
       textDescription: 
-      'We follow chain system in our stitching lines. Our production supervisors take targets according to set layouts and our quality controllers ensure the quality standard during the stitching process.' 
+      "Our cutting department tailors fabric to match specified quantities and sizes, customizing it according to required specifications." 
     },
     { figureLink: Sitching,
       figureTitle:'Sitching',
       textDescription: 
-      'We follow chain system in our stitching lines. Our production supervisors take targets according to set layouts and our quality controllers ensure the quality standard during the stitching process.' 
+      ' Emphasize the quality control measures implemented during stitching, involving production supervisors setting targets based on layouts and quality controllers ensuring adherence to standards.' 
     },
     { figureLink: Checking,
       figureTitle:'Checking',
       textDescription: 
-      'We follow chain system in our stitching lines. Our production supervisors take targets according to set layouts and our quality controllers ensure the quality standard during the stitching process.' 
+      'Our checking process is rigorous. Our dedicated team meticulously inspects each product to ensure it meets our high quality standards. With attention to detail and thoroughness, we guarantee excellence in every item.' 
     },
     { figureLink: Ironing,
       figureTitle:'Ironing',
       textDescription: 
-      'We follow chain system in our stitching lines. Our production supervisors take targets according to set layouts and our quality controllers ensure the quality standard during the stitching process.'  
+      "Ironing is a crucial step in our production process. Our skilled team meticulously presses each garment to perfection, ensuring a crisp and polished finish. With precision and care, we uphold the quality of our products."  
     },
     { figureLink: Packing,
       figureTitle:'Packing',
       textDescription: 
-      'We follow chain system in our stitching lines. Our production supervisors take targets according to set layouts and our quality controllers ensure the quality standard during the stitching process.'  
+      'Packing is handled with precision and efficiency. Our team carefully packages each item, ensuring it arrives in pristine condition. With attention to detail and careful handling, we ensure that our products are ready for delivery.'  
     },
   ];
   return (
