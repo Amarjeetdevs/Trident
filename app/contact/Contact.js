@@ -105,7 +105,7 @@ const Contact = () => {
                 <p className="mt-2 text-sm text-gray-500">Start new chat</p>
               </div> */}
 
-              <div >
+              <div>
                 <span className="inline-block p-3  text-gray-500 rounded-full bg-gray-100/80">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,11 @@ const Contact = () => {
                 <p className="mt-2 text-sm text-gray-500">
                   Come say hello at our office HQ.
                 </p>
-                <p className="mt-2 text-sm text-gray-500">Sharjah United Arab Emirates</p>
+                <p className="mt-2 text-sm text-gray-500">
+                  {" "}
+                  Business Centre,Sharjah Publishing City Free Zone, Sharjah,
+                  United Arab Emirates
+                </p>
               </div>
 
               <div className="lg:ml-4">
@@ -159,7 +163,7 @@ const Contact = () => {
                   Phone
                 </h2>
 
-                <p className="mt-2 text-sm text-gray-500">+91 9876543210</p>
+                <p className="mt-2 text-sm text-gray-500">+971 504739499</p>
               </div>
             </div>
 
@@ -207,7 +211,7 @@ const Contact = () => {
                   </label>
                   <input
                     type="email"
-                    placeholder="test@gmail.com"
+                    placeholder="abc@gmail.com"
                     name="email"
                     className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg  focus:border-gray-400 der-gray-400 focus:ring-gray-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
@@ -242,13 +246,17 @@ const Contact = () => {
                   Send message
                 </button>
               </form>
-                     
             </div>
           </div>
         </div>
       </section>
-      <iframe  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Trident+Sharjah+Dubai" width="100%" height="386" frameborder="0"  allowfullscreen=""></iframe>
-
+      <iframe
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Trident+Sharjah+Dubai"
+        width="100%"
+        height="386"
+        frameborder="0"
+        allowfullscreen=""
+      ></iframe>
     </div>
   );
 };
