@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import fibre from '../assets/fabric.jpeg'
-import child from '../assets/child.jpg'
-import hsptl from '../assets/hsptl.jpg'
+import fibre from '../assets/Suits 2 Peice and 3 Peice Men and Women_8.jpg'
+import child from '../assets/Bellman, Door and Valet Uniform_5.jpg'
+import hsptl from '../assets/Chef Male and Female Uniform_1.jpg'
 import plce from '../assets/plice.avif'
 import crpt from '../assets/corporate.jpeg'
-import sprt from '../assets/sprt.avif'
+import sprt from '../assets/Spa Uniform_2.jpg'
 
 
 const HeroBanner = () => {

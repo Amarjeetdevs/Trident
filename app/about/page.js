@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="w-full px-4 bg-[#f4f1e7] flex flex-col text-justify">
+    <div className="w-full px-4 bg-[#f4f1e7] lg:px-10 flex flex-col text-justify">
       <span className="w-11/12 mx-auto text-2xl font-bold text-center mt-6">
         About Us
       </span>

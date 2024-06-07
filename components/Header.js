@@ -7,7 +7,7 @@ import { useContext, useEffect, useState } from "react";
 import SideCart from "./SideCart";
 import { Context } from "@/Context/Context";
 import axios from "axios";
-import trident from '../assets/tirdent.png'
+import trident from '../assets/trlogo.png'
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -27,11 +27,12 @@ const Header = () => {
   }, []);
 
   const ServiceCategory = [
-    "Hospital Uniform",
-    "School Uniform",
-    "Corporate Uniform",
-    "Sports Uniform",
-    "Security-uniform"
+    "Sophisticated Suits",
+    "Spa Uniform",
+    "chef uniform",
+    "Engineers & Mechanics",
+    "Housekeeping Uniform",
+    "Hospitality Staff",
   ];
 
   return (
@@ -41,11 +42,11 @@ const Header = () => {
           <Link className="block font-bold  font-serif lg:pt-8 text-4xl text-teal-600" href="/">
             {/* <span className="sr-only">Home</span>  */}
         <Image
-        width={80}
-        // height={80}
+        // width={100}
+        height={80}
         alt="Trident"
         src={trident}
-        className="sm:w-50 lg:w-fit my-2"
+        className="sm:w-20 lg:w-50  my-2"
         />
         {/* Trident */}
           </Link>

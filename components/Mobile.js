@@ -8,11 +8,12 @@ const Mobile = ({ setIsOpen, categories }) => {
   const { user, handleLogout } = useContext(Context);
   const name = user?.data?.name.replace(/ .*/, "");
   const ServiceCategory = [
-    "Hospital Uniform",
-    "School Uniform",
-    "Corporate Uniform",
-    "Sports Uniform",
-    "Security-uniform",
+    "Sophisticated Suits",
+    "Spa Uniform",
+    "Chef uniform",
+    "Uniform for Engineers & Mechanics",
+    "Housekeeping Uniform",
+    "Hospitality Staff",
   ];
 
   return (
