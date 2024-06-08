@@ -75,7 +75,7 @@ const Footer = () => {
                   href="#!"
                   className="block text-2xl font-medium text-white hover:opacity-75 sm:text-3xl"
                 >
-                  +91 9876543210
+                  +971 504739499
                 </a>
               </p>
 
