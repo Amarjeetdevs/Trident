@@ -303,7 +303,7 @@ const Footer = () => {
               </ul>
 
               <p className="mt-8 text-xs text-white sm:mt-0">
-                &copy; 2024. Trident Clothing Store . All rights reserved.
+                &copy; 2024. Trident Apparels . All rights reserved.
               </p>
             </div>
           </div>

@@ -30,7 +30,7 @@ const Header = () => {
     "Sophisticated Suits",
     "Spa Uniform",
     "chef uniform",
-    "Engineers & Mechanics",
+    "Uniform for Engineers & Mechanics",
     "Housekeeping Uniform",
     "Hospitality Staff",
   ];

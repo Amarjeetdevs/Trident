@@ -4,7 +4,7 @@ import fibre from '../assets/Suits 2 Peice and 3 Peice Men and Women_8.jpg'
 import child from '../assets/Bellman, Door and Valet Uniform_5.jpg'
 import hsptl from '../assets/Chef Male and Female Uniform_1.jpg'
 import plce from '../assets/plice.avif'
-import crpt from '../assets/corporate.jpeg'
+import crpt from '../assets/Suits 2 Peice and 3 Peice Men and Women_6.jpg'
 import sprt from '../assets/Spa Uniform_2.jpg'
 
 

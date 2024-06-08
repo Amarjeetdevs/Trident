@@ -47,7 +47,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
               <div>
-                <span className="inline-block p-3 text-gray-500 rounded-full bg-[#f4f1e7] 00">
+                <span className="inline-block p-3 text-gray-500 rounded-full bg-gray-100/80">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -70,7 +70,7 @@ const Contact = () => {
                 <p className="mt-2 text-sm text-gray-500">
                   Our friendly team is here to help.
                 </p>
-                <p className="mt-2 text-sm text-gray-500">test@gmail.com</p>
+                <p className="mt-2 text-sm text-gray-500">info@tridentapparels.com</p>
               </div>
 
               {/* <div>
@@ -251,11 +251,11 @@ const Contact = () => {
         </div>
       </section>
       <iframe
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Trident+Sharjah+Dubai"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Business+Centre+Sharjah+Publishing+City+Free+Zone+Sharjah+United+Arab+Emirates"
         width="100%"
         height="386"
         frameborder="0"
-        allowfullscreen=""
+        allowfullscreen="4"
       ></iframe>
     </div>
   );
