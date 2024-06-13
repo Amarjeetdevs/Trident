@@ -1,6 +1,6 @@
 # Next.js Store
 
-This is a Next.js project.
+This is an E-commerce Next.js project.
 
 ![image](https://github.com/Amarjeetdevs/Trident/blob/ea088f7a235436c9ff9e823d3c9d5774d4372e58/assets/image.png)
 
