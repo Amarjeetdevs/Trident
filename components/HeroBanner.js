@@ -26,8 +26,8 @@ const HeroBanner = () => {
             </h2>
            </div>
             <div className="sm:max-w-4xl ">
-              <h1 className="text-5xl font-mono tracking-tight text-gray-900 sm:text-7xl">
-                Summer styles are finally here
+              <h1 className="text-xl font-mono tracking-tight text-gray-900 sm:text-5xl">
+                Summer styles are <br/> finally here
                 <br />
                 <p className="text-6xl font-serif bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500">
                   2.O

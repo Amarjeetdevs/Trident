@@ -29,7 +29,7 @@ const Contact = () => {
   }
   return (
     <div>
-      <section className="bg-[#f4f1e7]">
+      <section className=" lg:px-24 bg-[#f4f1e7]">
         <div className="container px-6 py-12 mx-auto">
           <div>
             <p className="font-medium text-gray-500 -400">Contact us</p>
@@ -72,8 +72,8 @@ const Contact = () => {
                 </p>
                 <p className="mt-2 text-sm text-gray-500">info@tridentapparels.com</p>
               </div>
-
-              {/* <div>
+{/* 
+              <div>
                 <span className="inline-block p-3 text-gray-500 rounded-full bg-gray-100/80">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -158,18 +158,50 @@ const Contact = () => {
                     />
                   </svg>
                 </span>
+                <div>
+                    <h2 className="mt-4 text-base font-medium text-gray-800">
+                        Jaya
+                    </h2>
+                    <p className="mt-2 text-sm text-gray-500">
+                        Marketing Manager
+                    </p>
+                    <p className="mt-2 text-sm text-gray-500">
+                       +971 50 7691449
+                    </p>
+                    <hr className="border-gray-400 w-full mt-4" />
+                </div>
+                <div>
+                    <h2 className="mt-4 text-base font-medium text-gray-800">
+                        Shekar
+                    </h2>
+                    <p className="mt-2 text-sm text-gray-500">
+                        Manager
+                    </p>
+                    <p className="mt-2 text-sm text-gray-500">
+                    +971 55 8985911
+                    </p>
+                    <hr className="border-gray-400 w-full mt-4" />
 
-                <h2 className="mt-4 text-base font-medium text-gray-800">
-                  Phone
-                </h2>
+                </div>
+                <div>
+                    <h2 className="mt-4 text-base font-medium text-gray-800">
+                        Kishore Poojary
+                    </h2>
+                    <p className="mt-2 text-sm text-gray-500">
+                        Managing Director
+                    </p>
+                    <p className="mt-2 text-sm text-gray-500">
+                    +971 50 4739499
+                    </p>
+                
+                </div>
 
-                <p className="mt-2 text-sm text-gray-500">+971 504739499</p>
               </div>
             </div>
 
-            <div className="p-4 py-6 rounded-lg bg-gray-50 md:p-8">
+            <div className="p-4 w-sm py-6 rounded-lg bg-gray-50 md:p-8">
               <form onSubmit={handleSubmit}>
-                <div className="-mx-2 md:items-center md:flex">
+                <div className="w-mx-2 md:items-center md:flex">
                   <div className="flex-1 px-2">
                     <label className="block mb-2 text-sm text-gray-600">
                       First Name
